@@ -14,11 +14,11 @@ Once node has been insalled, make sure you are in the project directroy of the g
 
 #### Resources and Solutions    
 
-I followed Jesse from CodekackR's example to guide me on  the layout and logic for the project and tehn adapted it to my liking. He followed Brad Traversy's vanilla JS example on gitHub and compiled it for React.
+I followed Jesse from CodekackR's example to guide me on  the layout and logic for the project and then adapted it to my liking. He followed Brad Traversy's vanilla JS example on gitHub and compiled it for React.
 
 I also relied on WebDevSimplified to assist with refreshing the useEffect and State logic in react. 
 
-OpenAI for assistance with some of the conditinal syntactical challenges especially with the the ternary operators in react.
+OpenAI for assistance with some of the conditional syntactical challenges especially with the the ternary operators in react as well as the logic inside the useEffect hook, which was very tricky.
 
 Bootstrap and local css for styling.
 
