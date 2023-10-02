@@ -3,7 +3,7 @@
 
 Save this game file with it's directories on your machine.
 
-As per the pdf task instruction, it requirers the reviewer to activate the appolication by
+As per the pdf task instruction, it requirers the reviewer to activate the application by
 typing in npm start. Howevere, prior to this, please install the node.js package first as it's 
 too large to transfer actoss dropbox.
 
