@@ -1,7 +1,7 @@
 
 # Installing Hangman on your machine'
 
-Save this game file with it's diretories on your machine.
+Save this game file with it's directories on your machine.
 
 Node js is included in this version as per the pdf instruction to enable the reviewer to enable the app with npm start. Therefore, it is included and not deleted for re-installtion.
 
