@@ -32,7 +32,8 @@ function App() {
   const [correctLetters, setCorrectLetters] = useState([]);
   const [wrongLetters, setWrongLetters] = useState([]);
   const [showNotification, setShowNotification] = useState(false);
-  const [getHelp, setGetHelp] = useState(false)
+  const [getHelp, setGetHelp] = useState(false);
+  // const [restart, updateRestart] = useState(false);
 
   //Event listener & useEffect hook
   useEffect (()=>{
@@ -102,7 +103,8 @@ function App() {
         </div>
         <Popup correctLetters={correctLetters} wrongLetters={wrongLetters} selectedWord={selectedWord} setPlayable={setPlayable} playAgain={playAgain}/>
         <Notification showNotification={showNotification} /> 
-        <GetHelp getHelp = {getHelp} setGetHelp={setGetHelp} />
+        <GetHelp getHelp = {getHelp} setGetHelp={setGetHelp} playAgain={playAgain} />
+ 
     </>
 
   );

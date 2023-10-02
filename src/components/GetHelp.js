@@ -1,13 +1,14 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
+
 import '../App.css';
 
 
-function GetHelp({getHelp, setGetHelp, showNotification}) {
+function GetHelp({getHelp, setGetHelp, playAgain}) {
 
     //Variable cotaining ternatry operators to set conditional displays based on the boolean toggle value. 
-    const helpMessage = getHelp ? "Try to guess the hidden characters. Maximum 10 wrong guesses." : "";
-    const buttonContent = getHelp ? "Close" : "Need Help?";
+    const helpMessage = getHelp ? "Try to guess the hidden characters. Maximum 10 wrong guesses. Start by entering a letter and the game will either indictate that the letter is correct or incorrect." : "";
+    const buttonContent = getHelp ? "Close" : "HELP";
 
 //Update state 
     const handleClick = () => {
@@ -16,11 +17,16 @@ function GetHelp({getHelp, setGetHelp, showNotification}) {
         console.log(getHelp)
     }
 
+
   return (
+    <div>
+         <div><p className='display-help-message'>{helpMessage}</p></div>
     <div className="d-flex justify-content-center">
-        <Button variant='secondary' onClick={handleClick} className='helpButton'>{buttonContent}</Button>
-         <p className='display-help-message'>{helpMessage}</p>
-        </div>
+        <Button variant='danger' onClick={handleClick} className='helpButton m-3'>{buttonContent}</Button>
+        <Button variant='success' onClick={playAgain} className='helpButton m-3'>RESTART</Button>
+    </div>
+ 
+    </div>
         
         
   )

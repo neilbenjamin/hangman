@@ -12,6 +12,13 @@ This will check for the missing dependencies and install the node.js module.
 
 Once node has been insalled, make sure you are in the project directroy of the game and type npm `start` to open a development browser to play the game.
 
+### Hangman Instructions
+
+The game will randomly pick a mystery word which you need to guess. You gave 10 guesses. If you get more than 10 guesses wrong, you hang your man and you've lost
+If you need help, there is a red button that says help. Push it and you can be reminded of the instructions. 
+If you need to restart the game at any point, push the green restart button to start again.
+You will also have the opportunity to restart the game after each game attampt. GOodluck!!
+
 #### Resources and Solutions    
 
 I followed Jesse from CodekackR's example to guide me on  the layout and logic for the project and then adapted it to my liking. He followed Brad Traversy's vanilla JS example on gitHub and compiled it for React.
