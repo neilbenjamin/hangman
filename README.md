@@ -10,6 +10,16 @@ This will check for the missing dependencies and install the node.js module.
 
 Once node has been insalled, make sure you are in the project directroy of the game and type npm `start` to open a development browser to play the game.
 
+#### Resources and Solutions    
+
+I followed Jesse from CodekackR's example to guide me on  the layout and logic for the project and tehn adapted it to my liking. He followed Brad Traversy's vanilla JS example on gitHub and compiled it for React.
+
+I also relied on WebDevSimplified to assist with refreshing the useEffect and State logic in react. 
+
+OpenAI for assistance with some of the conditinal syntactical challenges especially with the the ternary operators in react.
+
+Bootstrap and local css for styling.
+
 #### Additional React documentation. 
 
 # Getting Started with Create React App
