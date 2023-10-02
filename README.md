@@ -1,11 +1,11 @@
 
 # Installing Hangman on your machine'
 
-You need to install the node package first. 
-
 Save this game file with it's diretories on your machine.
 
-Navigate to the project root directory of the game file on your machine and open your terminal and type in `npm install`. 
+Node js is included in this version as per the pdf instruction to enable the reviewer to enable the app with npm start. Therefore, it is included and not deleted for re-installtion.
+
+However, if you need to install node.js, navigate to the project root directory of the game file on your machine and open your terminal and type in `npm install`. 
 This will check for the missing dependencies and install the node.js module.
 
 Once node has been insalled, make sure you are in the project directroy of the game and type npm `start` to open a development browser to play the game.
