@@ -4,7 +4,7 @@
 Save this game file with it's directories on your machine.
 
 As per the pdf task instruction, it requirers the reviewer to activate the appolication by
-typing in npm start. Howevere, prior to this, please install the node.js paxkage first as it's 
+typing in npm start. Howevere, prior to this, please install the node.js package first as it's 
 too large to transfer actoss dropbox.
 
 Install node.js, navigate to the project root directory of the game file on your machine and open your terminal and type in `npm install`. 
